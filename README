@@ -1,1 +1,6 @@
-keep a eye on this later
+give ubuntu some fonts
+
+INSTALL:
+
+curl -L https://github.com/fly2xj/ubuntuChineseFont/raw/master/install.sh |sh
+

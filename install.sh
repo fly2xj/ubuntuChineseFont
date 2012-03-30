@@ -15,4 +15,9 @@ sudo cp Fonts/*.* /usr/share/fonts/truetype/myfonts/
 sudo fc-cache -f -v
 
 #modify fonts config
+sudo mv /etc/fonts/conf.avail/69-language-selector-zh-cn.conf /etc/fonts/conf.avail/69-language-selector-zh-cn.conf.bac
+sudo cp ./69-language-selector-zh-cn.conf /etc/fonts/conf.avail/69-language-selector-zh-cn.conf
+
+
+
 

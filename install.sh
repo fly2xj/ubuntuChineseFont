@@ -9,4 +9,10 @@ if ! [ -d ~/.ubuntuCF ]; then
 fi
 
 cd ~/.ubuntuCF
+sudo mkdir /usr/share/fonts/truetype/myfonts/
+sudo cp Fonts/*.* /usr/share/fonts/truetype/myfonts/
+
+sudo fc-cache -f -v
+
+#modify fonts config
 
